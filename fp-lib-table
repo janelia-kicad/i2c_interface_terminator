@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name terminator_2_pair)(type KiCad)(uri ${KIPRJMOD}/terminator_2_pair.pretty)(options "")(descr ""))
+  (lib (name footprints)(type KiCad)(uri ${KILIBS}/footprints.pretty)(options "")(descr ""))
+)
