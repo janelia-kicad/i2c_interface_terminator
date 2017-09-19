@@ -1,4 +1,4 @@
-(kicad_pcb (version 20170123) (host pcbnew no-vcs-found-33cc7b3~60~ubuntu16.04.1)
+(kicad_pcb (version 20170123) (host pcbnew no-vcs-found-e2d3fce~60~ubuntu16.04.1)
 
   (general
     (thickness 1.6)
@@ -164,7 +164,7 @@
   (gr_line (start 107.5 105.5) (end 107.5 94.5) (angle 90) (layer Edge.Cuts) (width 0.2286))
   (gr_line (start 92.5 105.5) (end 107.5 105.5) (angle 90) (layer Edge.Cuts) (width 0.2286))
   (gr_line (start 92.5 94.5) (end 92.5 105.5) (angle 90) (layer Edge.Cuts) (width 0.2286))
-  (gr_text "terminator 2 pair 09/2017 ver 1.0" (at 100 104.5) (layer F.SilkS)
+  (gr_text "i2c_interface_terminator\n09/2017 ver 1.0" (at 100 104.5) (layer F.SilkS)
     (effects (font (size 0.508 0.508) (thickness 0.127)))
   )
 
