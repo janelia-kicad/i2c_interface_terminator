@@ -11,7 +11,7 @@
 
   (page A4)
   (title_block
-    (title terminator_2_pair)
+    (title i2c_interface_terminator)
     (rev 1.0)
   )
 

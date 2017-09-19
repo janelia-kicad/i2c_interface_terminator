@@ -28,15 +28,15 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:terminator_2_pair
+LIBS:i2c_interface_terminator
 LIBS:components
-LIBS:terminator_2_pair-cache
+LIBS:i2c_interface_terminator-cache
 EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
 Sheet 1 1
-Title "terminator_2_pair"
+Title "i2c_interface_terminator"
 Date ""
 Rev "1.0"
 Comp "Janelia"
@@ -51,13 +51,13 @@ U 1 1 59BB0B55
 P 5000 3600
 F 0 "P?" H 5000 3800 50  0000 C CNN
 F 1 "HEADER_02X03_FEMALE" H 5000 3900 50  0000 C CNN
-F 2 "terminator_2_pair:HEADER_02x03_FEMALE" H 5000 2400 60  0001 C CNN
+F 2 "i2c_interface_terminator:HEADER_02x03_FEMALE" H 5000 2400 60  0001 C CNN
 F 3 "" H 5000 2400 60  0000 C CNN
 F 4 "digikey" H 5100 4000 60  0001 C CNN "Vendor"
 F 5 "S7106-ND" H 5200 4100 60  0001 C CNN "PartNumber"
 F 6 "CONN HEADER FMAL 6PS 0.1IN DL GOLD" H 5300 4200 60  0001 C CNN "Description"
 	1    5000 3600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VAA #PWR?
@@ -68,7 +68,7 @@ F 1 "VAA" H 4417 3673 50  0000 C CNN
 F 2 "" H 4400 3500 50  0001 C CNN
 F 3 "" H 4400 3500 50  0001 C CNN
 	1    4400 3500
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR?
@@ -79,7 +79,7 @@ F 1 "GND" H 5605 3527 50  0000 C CNN
 F 2 "" H 5600 3700 50  0001 C CNN
 F 3 "" H 5600 3700 50  0001 C CNN
 	1    5600 3700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	4750 3700 4650 3700

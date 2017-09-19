@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/polidorop/git/kicad/terminator_2_pair/terminator_2_pair.sch</source>
+    <source>/home/polidorop/git/kicad/i2c_interface_terminator/i2c_interface_terminator.sch</source>
     <date>Wed 08 Feb 2017 01:52:27 PM EST</date>
     <tool>Eeschema no-vcs-found-7602~57~ubuntu16.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title>terminator_2_pair</title>
+        <title>i2c_interface_terminator</title>
         <company>Janelia</company>
         <rev>1.0</rev>
         <date/>
-        <source>terminator_2_pair.sch</source>
+        <source>i2c_interface_terminator.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -21,24 +21,24 @@
   <components>
     <comp ref="MDB1">
       <value>MODULAR_DEVICE_BASE_3X2_MALE</value>
-      <footprint>terminator_2_pair:MODULAR_DEVICE_BASE_3X2_MALE</footprint>
+      <footprint>i2c_interface_terminator:MODULAR_DEVICE_BASE_3X2_MALE</footprint>
       <fields>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">S1011E-16-ND</field>
         <field name="Description">16 Position Header Through Hole Male Pins</field>
         <field name="PartCount">2</field>
       </fields>
-      <libsource lib="terminator_2_pair" part="MODULAR_DEVICE_BASE_3X2_MALE"/>
+      <libsource lib="i2c_interface_terminator" part="MODULAR_DEVICE_BASE_3X2_MALE"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>589B6745</tstamp>
     </comp>
   </components>
   <libparts>
-    <libpart lib="terminator_2_pair" part="MODULAR_DEVICE_BASE_3X2_MALE">
+    <libpart lib="i2c_interface_terminator" part="MODULAR_DEVICE_BASE_3X2_MALE">
       <fields>
         <field name="Reference">MDB</field>
         <field name="Value">MODULAR_DEVICE_BASE_3X2_MALE</field>
-        <field name="Footprint">terminator_2_pair:MODULAR_DEVICE_BASE_3X2_MALE</field>
+        <field name="Footprint">i2c_interface_terminator:MODULAR_DEVICE_BASE_3X2_MALE</field>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">S1011E-16-ND</field>
         <field name="Description">16 Position Header Through Hole Male Pins</field>
@@ -81,8 +81,8 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="terminator_2_pair">
-      <uri>/home/polidorop/git/kicad/terminator_2_pair/terminator_2_pair.lib</uri>
+    <library logical="i2c_interface_terminator">
+      <uri>/home/polidorop/git/kicad/i2c_interface_terminator/i2c_interface_terminator.lib</uri>
     </library>
   </libraries>
   <nets>

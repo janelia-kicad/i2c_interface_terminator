@@ -1,4 +1,4 @@
-# terminator_2_pair
+# i2c_interface_terminator
 
 Authors:
 

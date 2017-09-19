@@ -11,7 +11,7 @@ version=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=terminator_2_pair.net
+LastNetListRead=i2c_interface_terminator.net
 UseCmpFile=0
 PadDrill=0.889
 PadDrillOvalY=0.889
@@ -72,5 +72,5 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=terminator_2_pair
+LibName30=i2c_interface_terminator
 LibName31=components
