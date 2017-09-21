@@ -2,8 +2,8 @@
 <export version="D">
   <design>
     <source>/home/polidorop/git/kicad/i2c_interface_terminator/i2c_interface_terminator.sch</source>
-    <date>Wed 08 Feb 2017 01:52:27 PM EST</date>
-    <tool>Eeschema no-vcs-found-7602~57~ubuntu16.04.1</tool>
+    <date>Thu 21 Sep 2017 10:41:43 AM EDT</date>
+    <tool>Eeschema no-vcs-found-e2d3fce~60~ubuntu16.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>i2c_interface_terminator</title>
@@ -19,64 +19,156 @@
     </sheet>
   </design>
   <components>
-    <comp ref="MDB1">
-      <value>MODULAR_DEVICE_BASE_3X2_MALE</value>
-      <footprint>i2c_interface_terminator:MODULAR_DEVICE_BASE_3X2_MALE</footprint>
+    <comp ref="R4">
+      <value>604_0805</value>
+      <footprint>i2c_interface_terminator:SM0805</footprint>
       <fields>
         <field name="Vendor">digikey</field>
-        <field name="PartNumber">S1011E-16-ND</field>
-        <field name="Description">16 Position Header Through Hole Male Pins</field>
-        <field name="PartCount">2</field>
+        <field name="PartNumber">311-604CRCT-ND</field>
+        <field name="Description">RES SMD 604 OHM 1% 1/8W 0805</field>
       </fields>
-      <libsource lib="i2c_interface_terminator" part="MODULAR_DEVICE_BASE_3X2_MALE"/>
+      <libsource lib="i2c_interface_terminator" part="604_0805"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>589B6745</tstamp>
+      <tstamp>59C2CC33</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>120_0805</value>
+      <footprint>i2c_interface_terminator:SM0805</footprint>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">311-120CRCT-ND</field>
+        <field name="Description">RES SMD 120 OHM 1% 1/8W 0805</field>
+      </fields>
+      <libsource lib="i2c_interface_terminator" part="120_0805"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C2CD1C</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>604_0805</value>
+      <footprint>i2c_interface_terminator:SM0805</footprint>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">311-604CRCT-ND</field>
+        <field name="Description">RES SMD 604 OHM 1% 1/8W 0805</field>
+      </fields>
+      <libsource lib="i2c_interface_terminator" part="604_0805"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C2CDDA</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>604_0805</value>
+      <footprint>i2c_interface_terminator:SM0805</footprint>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">311-604CRCT-ND</field>
+        <field name="Description">RES SMD 604 OHM 1% 1/8W 0805</field>
+      </fields>
+      <libsource lib="i2c_interface_terminator" part="604_0805"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C2D0FB</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>120_0805</value>
+      <footprint>i2c_interface_terminator:SM0805</footprint>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">311-120CRCT-ND</field>
+        <field name="Description">RES SMD 120 OHM 1% 1/8W 0805</field>
+      </fields>
+      <libsource lib="i2c_interface_terminator" part="120_0805"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C2D104</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>604_0805</value>
+      <footprint>i2c_interface_terminator:SM0805</footprint>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">311-604CRCT-ND</field>
+        <field name="Description">RES SMD 604 OHM 1% 1/8W 0805</field>
+      </fields>
+      <libsource lib="i2c_interface_terminator" part="604_0805"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C2D10D</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>HEADER_02X03_FEMALE_SMD</value>
+      <footprint>i2c_interface_terminator:HEADER_02x03_FEMALE_SMD</footprint>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">S5712-ND</field>
+        <field name="Description">CONN FEMALE 6POS DL .1IN GOLD SMD</field>
+      </fields>
+      <libsource lib="i2c_interface_terminator" part="HEADER_02X03_FEMALE_SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C3D1A7</tstamp>
     </comp>
   </components>
   <libparts>
-    <libpart lib="i2c_interface_terminator" part="MODULAR_DEVICE_BASE_3X2_MALE">
+    <libpart lib="i2c_interface_terminator" part="120_0805">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
       <fields>
-        <field name="Reference">MDB</field>
-        <field name="Value">MODULAR_DEVICE_BASE_3X2_MALE</field>
-        <field name="Footprint">i2c_interface_terminator:MODULAR_DEVICE_BASE_3X2_MALE</field>
+        <field name="Reference">R</field>
+        <field name="Value">120_0805</field>
+        <field name="Footprint">i2c_interface_terminator:SM0805</field>
         <field name="Vendor">digikey</field>
-        <field name="PartNumber">S1011E-16-ND</field>
-        <field name="Description">16 Position Header Through Hole Male Pins</field>
-        <field name="PartCount">2</field>
+        <field name="PartNumber">311-120CRCT-ND</field>
+        <field name="Description">RES SMD 120 OHM 1% 1/8W 0805</field>
       </fields>
       <pins>
-        <pin num="2" name="D2" type="BiDi"/>
-        <pin num="3" name="D3/PWM/CANTX" type="BiDi"/>
-        <pin num="4" name="D4/PWM/CANRX" type="BiDi"/>
-        <pin num="5" name="D5/PWM/TX1B" type="BiDi"/>
-        <pin num="6" name="D6/PWM" type="BiDi"/>
-        <pin num="9" name="D9/RX2/PWM/ICP/CSB/I2SBCLK" type="BiDi"/>
-        <pin num="10" name="D10/TX2/CS/PWM/ICP" type="BiDi"/>
-        <pin num="11" name="D11/DOUT/I2SMCLK" type="BiDi"/>
-        <pin num="12" name="D12/DIN" type="BiDi"/>
-        <pin num="13" name="D13/LED/SCK/I2SRX" type="BiDi"/>
-        <pin num="14" name="D14/A0/SCKB" type="BiDi"/>
-        <pin num="15" name="D15/A1/TOUCH/CSB" type="BiDi"/>
-        <pin num="16" name="D16/A2/TOUCH" type="BiDi"/>
-        <pin num="17" name="D17/A3/TOUCH" type="BiDi"/>
-        <pin num="18" name="D18/A4/SDA0/TOUCH" type="BiDi"/>
-        <pin num="19" name="D19/A5/SCL0/TOUCH" type="BiDi"/>
-        <pin num="20" name="D20/A6/PWM/CSB" type="BiDi"/>
-        <pin num="21" name="D21/A7/PWM/RX1B/CSB" type="BiDi"/>
-        <pin num="22" name="D22/A8/TOUCH/PWM/ICP/I2STX" type="BiDi"/>
-        <pin num="23" name="D23/A9/TOUCH/PWM/ICP/I2SLRCLK" type="BiDi"/>
-        <pin num="24" name="D24/ICP/I2SBCLKB" type="BiDi"/>
-        <pin num="25" name="D25/PWM/TOUCH/I2SLRCLK2" type="BiDi"/>
-        <pin num="28" name="D28/A17/I2SMCLKB" type="BiDi"/>
-        <pin num="29" name="D29/A18/SCL1" type="BiDi"/>
-        <pin num="30" name="D30/A19/SDA1" type="BiDi"/>
-        <pin num="3V3" name="3.3v_(250_mA_max)" type="passive"/>
-        <pin num="AGND" name="AGND" type="passive"/>
-        <pin num="AREF" name="AREF" type="passive"/>
-        <pin num="DAC" name="A14/DAC" type="BiDi"/>
-        <pin num="GND" name="GND" type="passive"/>
-        <pin num="VDD" name="VDD_(+9-42VDC)" type="passive"/>
-        <pin num="VEE" name="VEE_(+4-5VDC)" type="passive"/>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="i2c_interface_terminator" part="604_0805">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">604_0805</field>
+        <field name="Footprint">i2c_interface_terminator:SM0805</field>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">311-604CRCT-ND</field>
+        <field name="Description">RES SMD 604 OHM 1% 1/8W 0805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="i2c_interface_terminator" part="HEADER_02X03_FEMALE_SMD">
+      <footprints>
+        <fp>Pin_Header_Straight_2X05</fp>
+        <fp>Pin_Header_Angled_2X05</fp>
+        <fp>Socket_Strip_Straight_2X05</fp>
+        <fp>Socket_Strip_Angled_2X05</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">HEADER_02X03_FEMALE_SMD</field>
+        <field name="Footprint">i2c_interface_terminator:HEADER_02x03_FEMALE_SMD</field>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">S5712-ND</field>
+        <field name="Description">CONN FEMALE 6POS DL .1IN GOLD SMD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
       </pins>
     </libpart>
   </libparts>
@@ -86,101 +178,35 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(MDB1-Pad5)">
-      <node ref="MDB1" pin="5"/>
+    <net code="1" name="GND">
+      <node ref="R6" pin="2"/>
+      <node ref="P1" pin="4"/>
+      <node ref="R3" pin="2"/>
     </net>
-    <net code="2" name="Net-(MDB1-PadAGND)">
-      <node ref="MDB1" pin="AGND"/>
+    <net code="2" name="VAA">
+      <node ref="R4" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="P1" pin="3"/>
     </net>
-    <net code="3" name="Net-(MDB1-PadAREF)">
-      <node ref="MDB1" pin="AREF"/>
+    <net code="3" name="/DSDAP">
+      <node ref="R5" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="P1" pin="5"/>
     </net>
-    <net code="4" name="Net-(MDB1-Pad28)">
-      <node ref="MDB1" pin="28"/>
+    <net code="4" name="/DSCLM">
+      <node ref="P1" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R2" pin="2"/>
     </net>
-    <net code="5" name="Net-(MDB1-Pad12)">
-      <node ref="MDB1" pin="12"/>
+    <net code="5" name="/DSCLP">
+      <node ref="R2" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="P1" pin="1"/>
     </net>
-    <net code="6" name="Net-(MDB1-Pad11)">
-      <node ref="MDB1" pin="11"/>
-    </net>
-    <net code="7" name="Net-(MDB1-Pad10)">
-      <node ref="MDB1" pin="10"/>
-    </net>
-    <net code="8" name="Net-(MDB1-Pad9)">
-      <node ref="MDB1" pin="9"/>
-    </net>
-    <net code="9" name="Net-(MDB1-Pad29)">
-      <node ref="MDB1" pin="29"/>
-    </net>
-    <net code="10" name="Net-(MDB1-Pad30)">
-      <node ref="MDB1" pin="30"/>
-    </net>
-    <net code="11" name="Net-(MDB1-Pad6)">
-      <node ref="MDB1" pin="6"/>
-    </net>
-    <net code="12" name="Net-(MDB1-Pad3V3)">
-      <node ref="MDB1" pin="3V3"/>
-    </net>
-    <net code="13" name="Net-(MDB1-Pad4)">
-      <node ref="MDB1" pin="4"/>
-    </net>
-    <net code="14" name="Net-(MDB1-Pad3)">
-      <node ref="MDB1" pin="3"/>
-    </net>
-    <net code="15" name="Net-(MDB1-Pad2)">
-      <node ref="MDB1" pin="2"/>
-    </net>
-    <net code="16" name="Net-(MDB1-Pad25)">
-      <node ref="MDB1" pin="25"/>
-    </net>
-    <net code="17" name="Net-(MDB1-Pad24)">
-      <node ref="MDB1" pin="24"/>
-    </net>
-    <net code="18" name="GND">
-      <node ref="MDB1" pin="GND"/>
-    </net>
-    <net code="19" name="Net-(MDB1-Pad14)">
-      <node ref="MDB1" pin="14"/>
-    </net>
-    <net code="20" name="VEE">
-      <node ref="MDB1" pin="VEE"/>
-    </net>
-    <net code="21" name="Net-(MDB1-PadDAC)">
-      <node ref="MDB1" pin="DAC"/>
-    </net>
-    <net code="22" name="Net-(MDB1-Pad13)">
-      <node ref="MDB1" pin="13"/>
-    </net>
-    <net code="23" name="Net-(MDB1-Pad15)">
-      <node ref="MDB1" pin="15"/>
-    </net>
-    <net code="24" name="Net-(MDB1-Pad16)">
-      <node ref="MDB1" pin="16"/>
-    </net>
-    <net code="25" name="Net-(MDB1-Pad17)">
-      <node ref="MDB1" pin="17"/>
-    </net>
-    <net code="26" name="Net-(MDB1-Pad18)">
-      <node ref="MDB1" pin="18"/>
-    </net>
-    <net code="27" name="Net-(MDB1-Pad19)">
-      <node ref="MDB1" pin="19"/>
-    </net>
-    <net code="28" name="Net-(MDB1-Pad20)">
-      <node ref="MDB1" pin="20"/>
-    </net>
-    <net code="29" name="Net-(MDB1-Pad21)">
-      <node ref="MDB1" pin="21"/>
-    </net>
-    <net code="30" name="Net-(MDB1-Pad22)">
-      <node ref="MDB1" pin="22"/>
-    </net>
-    <net code="31" name="Net-(MDB1-Pad23)">
-      <node ref="MDB1" pin="23"/>
-    </net>
-    <net code="32" name="VDD">
-      <node ref="MDB1" pin="VDD"/>
+    <net code="6" name="/DSDAM">
+      <node ref="P1" pin="6"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R5" pin="2"/>
     </net>
   </nets>
 </export>

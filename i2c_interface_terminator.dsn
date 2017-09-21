@@ -1,0 +1,176 @@
+(pcb /home/polidorop/git/kicad/i2c_interface_terminator/i2c_interface_terminator.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "no-vcs-found-e2d3fce~60~ubuntu16.04.1")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  116840 -110490  101600 -110490  101600 -101600  116840 -101600
+            116840 -110490)
+    )
+    (via "Via[0-1]_889:635_um")
+    (rule
+      (width 254)
+      (clearance 25.5)
+      (clearance 25.5 (type default_smd))
+      (clearance 6.35 (type smd_smd))
+    )
+  )
+  (placement
+    (component i2c_interface_terminator:HEADER_02x03_FEMALE_SMD
+      (place P1 109220 -106045 back 0 (PN HEADER_02X03_FEMALE_SMD))
+    )
+    (component i2c_interface_terminator:SM0805
+      (place R1 111760 -103505 front 0 (PN 604))
+      (place R3 111760 -108585 front 180 (PN 604))
+      (place R5 103632 -106045 front 270 (PN 120))
+    )
+    (component i2c_interface_terminator:SM0805::1
+      (place R2 114808 -106045 front 270 (PN 120))
+      (place R4 106680 -103505 front 180 (PN 604))
+      (place R6 106680 -108585 front 0 (PN 604))
+    )
+  )
+  (library
+    (image i2c_interface_terminator:HEADER_02x03_FEMALE_SMD
+      (outline (path signal 381  -3810 3937  -2540 2667))
+      (outline (path signal 381  -1270 3937  -3810 3937))
+      (outline (path signal 381  -2540 2667  -1270 3937))
+      (outline (path signal 381  4064 2540  4064 -2540))
+      (outline (path signal 381  -4064 2540  -4064 -2540))
+      (outline (path signal 381  4064 2540  -4064 2540))
+      (outline (path signal 381  -4064 -2540  4064 -2540))
+      (pin Rect[T]Pad_990.6x1549.4_um 6 2540 -2908.3)
+      (pin Rect[T]Pad_990.6x1549.4_um 5 2540 2908.3)
+      (pin Rect[T]Pad_990.6x1549.4_um 4 0 -2908.3)
+      (pin Rect[T]Pad_990.6x1549.4_um 3 0 2908.3)
+      (pin Rect[T]Pad_990.6x1549.4_um 2 -2540 -2908.3)
+      (pin Rect[T]Pad_990.6x1549.4_um 1 -2540 2908.3)
+    )
+    (image i2c_interface_terminator:SM0805
+      (outline (path signal 127  1524 -889  635 -889))
+      (outline (path signal 127  1524 889  1524 -889))
+      (outline (path signal 127  635 889  1524 889))
+      (outline (path signal 127  -1524 -889  -635 -889))
+      (outline (path signal 127  -1524 889  -1524 -889))
+      (outline (path signal 127  -635 889  -1524 889))
+      (pin Rect[T]Pad_787.4x1600.2_um 2 1041.4 0)
+      (pin Rect[T]Pad_787.4x1600.2_um 1 -1041.4 0)
+    )
+    (image i2c_interface_terminator:SM0805::1
+      (outline (path signal 127  -635 889  -1524 889))
+      (outline (path signal 127  -1524 889  -1524 -889))
+      (outline (path signal 127  -1524 -889  -635 -889))
+      (outline (path signal 127  635 889  1524 889))
+      (outline (path signal 127  1524 889  1524 -889))
+      (outline (path signal 127  1524 -889  635 -889))
+      (pin Rect[T]Pad_787.4x1600.2_um 1 -1041.4 0)
+      (pin Rect[T]Pad_787.4x1600.2_um 2 1041.4 0)
+    )
+    (padstack Rect[T]Pad_787.4x1600.2_um
+      (shape (rect F.Cu -393.7 -800.1 393.7 800.1))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_990.6x1549.4_um
+      (shape (rect F.Cu -495.3 -774.7 495.3 774.7))
+      (attach off)
+    )
+    (padstack "Via[0-1]_889:635_um"
+      (shape (circle F.Cu 889))
+      (shape (circle B.Cu 889))
+      (attach off)
+    )
+  )
+  (network
+    (net /DSCLP
+      (pins P1-1 R1-2 R2-1)
+    )
+    (net /DSCLM
+      (pins P1-2 R2-2 R3-1)
+    )
+    (net VAA
+      (pins P1-3 R1-1 R4-1)
+    )
+    (net GND
+      (pins P1-4 R3-2 R6-2)
+    )
+    (net /DSDAP
+      (pins P1-5 R4-2 R5-1)
+    )
+    (net /DSDAM
+      (pins P1-6 R5-2 R6-1)
+    )
+    (class kicad_default ""
+      (circuit
+        (use_via Via[0-1]_889:635_um)
+      )
+      (rule
+        (width 254)
+        (clearance 25.5)
+      )
+    )
+    (class GND
+      (circuit
+        (use_via Via[0-1]_889:635_um)
+      )
+      (rule
+        (width 406.4)
+        (clearance 101.7)
+      )
+    )
+    (class LEDPOWER
+      (circuit
+        (use_via Via[0-1]_889:635_um)
+      )
+      (rule
+        (width 609.6)
+        (clearance 254.1)
+      )
+    )
+    (class POWER /DSCLM /DSCLP /DSDAM /DSDAP GND VAA
+      (circuit
+        (use_via Via[0-1]_889:635_um)
+      )
+      (rule
+        (width 812.8)
+        (clearance 254.1)
+      )
+    )
+    (class SIGNAL
+      (circuit
+        (use_via Via[0-1]_889:635_um)
+      )
+      (rule
+        (width 406.4)
+        (clearance 101.7)
+      )
+    )
+    (class SUPERPOWER
+      (circuit
+        (use_via Via[0-1]_889:635_um)
+      )
+      (rule
+        (width 1219.2)
+        (clearance 254.1)
+      )
+    )
+  )
+  (wiring
+  )
+)
