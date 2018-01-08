@@ -1,35 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:i2c_interface_terminator
-LIBS:components
+EESchema Schematic File Version 4
+LIBS:i2c_interface_terminator-cache
 EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
@@ -45,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L VAA #PWR01
+L power:VAA #PWR01
 U 1 1 59BB0C79
 P 4250 3500
 F 0 "#PWR01" H 4250 3350 50  0001 C CNN
@@ -56,7 +26,7 @@ F 3 "" H 4250 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR02
+L power:GND #PWR02
 U 1 1 59BB0CA5
 P 5750 3700
 F 0 "#PWR02" H 5750 3450 50  0001 C CNN
@@ -83,15 +53,15 @@ Wire Wire Line
 Text Label 5350 3500 0    60   ~ 0
 DSDAM
 Wire Wire Line
-	4000 3600 4750 3600
+	4000 3600 4250 3600
 Wire Wire Line
 	4250 3600 4250 3500
 Wire Wire Line
 	5250 3600 5750 3600
 Wire Wire Line
-	5750 3550 5750 3700
+	5750 3550 5750 3600
 $Comp
-L 604_0805 R4
+L i2c_interface_terminator:604_0805 R4
 U 1 1 59C2CC33
 P 7450 3000
 F 0 "R4" H 7500 3000 40  0000 L CNN
@@ -105,7 +75,7 @@ F 6 "RES SMD 604 OHM 1% 1/8W 0805" V 7830 3300 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 120_0805 R5
+L i2c_interface_terminator:120_0805 R5
 U 1 1 59C2CD1C
 P 7450 3600
 F 0 "R5" H 7500 3600 40  0000 L CNN
@@ -119,7 +89,7 @@ F 6 "RES SMD 120 OHM 1% 1/8W 0805" V 7830 3900 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 604_0805 R6
+L i2c_interface_terminator:604_0805 R6
 U 1 1 59C2CDDA
 P 7450 4200
 F 0 "R6" H 7500 4200 40  0000 L CNN
@@ -133,7 +103,7 @@ F 6 "RES SMD 604 OHM 1% 1/8W 0805" V 7830 4500 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L VAA #PWR03
+L power:VAA #PWR03
 U 1 1 59C2CE51
 P 7450 2700
 F 0 "#PWR03" H 7450 2550 50  0001 C CNN
@@ -144,7 +114,7 @@ F 3 "" H 7450 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR04
+L power:GND #PWR04
 U 1 1 59C2CE6C
 P 7450 4500
 F 0 "#PWR04" H 7450 4250 50  0001 C CNN
@@ -157,9 +127,9 @@ $EndComp
 Wire Wire Line
 	7450 2700 7450 2750
 Wire Wire Line
-	7450 3250 7450 3350
+	7450 3250 7450 3300
 Wire Wire Line
-	7450 3850 7450 3950
+	7450 3850 7450 3900
 Wire Wire Line
 	7450 4450 7450 4500
 Text Label 7550 3300 0    60   ~ 0
@@ -173,7 +143,7 @@ Connection ~ 7450 3900
 Text Label 7550 3900 0    60   ~ 0
 DSDAM
 $Comp
-L 604_0805 R1
+L i2c_interface_terminator:604_0805 R1
 U 1 1 59C2D0FB
 P 6850 3000
 F 0 "R1" H 6900 3000 40  0000 L CNN
@@ -187,7 +157,7 @@ F 6 "RES SMD 604 OHM 1% 1/8W 0805" V 7230 3300 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 120_0805 R2
+L i2c_interface_terminator:120_0805 R2
 U 1 1 59C2D104
 P 6850 3600
 F 0 "R2" H 6900 3600 40  0000 L CNN
@@ -201,7 +171,7 @@ F 6 "RES SMD 120 OHM 1% 1/8W 0805" V 7230 3900 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 604_0805 R3
+L i2c_interface_terminator:604_0805 R3
 U 1 1 59C2D10D
 P 6850 4200
 F 0 "R3" H 6900 4200 40  0000 L CNN
@@ -215,7 +185,7 @@ F 6 "RES SMD 604 OHM 1% 1/8W 0805" V 7230 4500 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L VAA #PWR05
+L power:VAA #PWR05
 U 1 1 59C2D113
 P 6850 2700
 F 0 "#PWR05" H 6850 2550 50  0001 C CNN
@@ -226,7 +196,7 @@ F 3 "" H 6850 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR06
+L power:GND #PWR06
 U 1 1 59C2D119
 P 6850 4500
 F 0 "#PWR06" H 6850 4250 50  0001 C CNN
@@ -239,9 +209,9 @@ $EndComp
 Wire Wire Line
 	6850 2700 6850 2750
 Wire Wire Line
-	6850 3250 6850 3350
+	6850 3250 6850 3300
 Wire Wire Line
-	6850 3850 6850 3950
+	6850 3850 6850 3900
 Wire Wire Line
 	6850 4450 6850 4500
 Text Label 6950 3300 0    60   ~ 0
@@ -255,7 +225,7 @@ Connection ~ 6850 3900
 Text Label 6950 3900 0    60   ~ 0
 DSCLM
 $Comp
-L PWR_FLAG #FLG01
+L power:PWR_FLAG #FLG01
 U 1 1 59C2D3D4
 P 5750 3550
 F 0 "#FLG01" H 5750 3625 50  0001 C CNN
@@ -266,7 +236,7 @@ F 3 "" H 5750 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG02
+L power:PWR_FLAG #FLG02
 U 1 1 59C2D447
 P 4000 3500
 F 0 "#FLG02" H 4000 3575 50  0001 C CNN
@@ -281,7 +251,7 @@ Wire Wire Line
 Connection ~ 4250 3600
 Connection ~ 5750 3600
 $Comp
-L HEADER_02X03_FEMALE_SMD P1
+L i2c_interface_terminator:HEADER_02X03_FEMALE_SMD P1
 U 1 1 59C3D1A7
 P 5000 3600
 F 0 "P1" H 5000 3800 50  0000 C CNN
@@ -294,4 +264,16 @@ F 6 "CONN FEMALE 6POS DL .1IN GOLD SMD" H 5300 4200 60  0001 C CNN "Description"
 	1    5000 3600
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7450 3300 7450 3350
+Wire Wire Line
+	7450 3900 7450 3950
+Wire Wire Line
+	6850 3300 6850 3350
+Wire Wire Line
+	6850 3900 6850 3950
+Wire Wire Line
+	4250 3600 4750 3600
+Wire Wire Line
+	5750 3600 5750 3700
 $EndSCHEMATC
